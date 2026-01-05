@@ -52,13 +52,8 @@ Embeddings: Trained a Word2Vec model using Gensim to create dense vector represe
 
 Model: A Sequential Neural Network using TensorFlow/Keras:
 
-Hidden Layers: Dense layers with ReLU activation.
-
-Regularization: Dropout layer (0.2) to prevent overfitting.
-
 Output Layer: Softmax activation for multi-class classification.
 
-Optimization: Adam optimizer with Sparse Categorical Crossentropy loss.
 
 4. Theoretical Understanding
 Addressed the importance of Tokenization and Embeddings in Transformer architectures, explaining how models process numerical representations rather than raw text.
